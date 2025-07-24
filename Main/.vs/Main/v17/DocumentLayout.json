@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\M228303\\source\\repos\\Main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C9C0D-844E-42A1-9925-AC7CB3378F40}|Main\\Main.pyproj|C:\\Users\\M228303\\source\\repos\\Main\\Main\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2A6C9C0D-844E-42A1-9925-AC7CB3378F40}|Main\\Main.pyproj|solutionrelative:Main\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C9C0D-844E-42A1-9925-AC7CB3378F40}|Main\\Main.pyproj|C:\\Users\\M228303\\source\\repos\\Main\\Main\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2A6C9C0D-844E-42A1-9925-AC7CB3378F40}|Main\\Main.pyproj|solutionrelative:Main\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6C9C0D-844E-42A1-9925-AC7CB3378F40}|Main\\Main.pyproj|C:\\Users\\M228303\\source\\repos\\Main\\Main\\Main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2A6C9C0D-844E-42A1-9925-AC7CB3378F40}|Main\\Main.pyproj|solutionrelative:Main\\Main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\M228303\\source\\repos\\Main\\Main\\requirements.txt",
+              "RelativeDocumentMoniker": "Main\\requirements.txt",
+              "ToolTip": "C:\\Users\\M228303\\source\\repos\\Main\\Main\\requirements.txt",
+              "RelativeToolTip": "Main\\requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-24T03:14:45.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\M228303\\source\\repos\\Main\\Main\\Dockerfile",
+              "RelativeDocumentMoniker": "Main\\Dockerfile",
+              "ToolTip": "C:\\Users\\M228303\\source\\repos\\Main\\Main\\Dockerfile",
+              "RelativeToolTip": "Main\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-24T03:13:36.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.py",
+              "DocumentMoniker": "C:\\Users\\M228303\\source\\repos\\Main\\Main\\Main.py",
+              "RelativeDocumentMoniker": "Main\\Main.py",
+              "ToolTip": "C:\\Users\\M228303\\source\\repos\\Main\\Main\\Main.py",
+              "RelativeToolTip": "Main\\Main.py",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwDcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-07-24T01:47:44.931Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
