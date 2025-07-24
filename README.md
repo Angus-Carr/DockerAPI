@@ -1,61 +1,58 @@
-🚢 DockerAPI 🌊
-Welcome to DockerAPI — your friendly Node.js library for managing Docker containers effortlessly! 🐳✨
+🚀 DockerAPI - Main Module 🐳🐍
+Welcome to DockerAPI Main! This is the core module of a Python project designed to interact with Docker via an API. Whether you’re managing containers, images, or just want to automate Docker workflows, this module has you covered! 🎉
 
-🔥 What is DockerAPI?
-DockerAPI is a lightweight, easy-to-use Node.js package that lets you control Docker containers programmatically. Whether you're building dev tools, automation scripts, or server management utilities, DockerAPI makes interacting with Docker a breeze! 🚀
+📦 What is this?
+This project provides a Python interface to communicate with Docker’s API. It’s perfect for developers and sysadmins who want to programmatically control Docker resources without using CLI commands directly.
 
-🚀 Features
-🐳 Start, stop, and manage Docker containers with simple API calls
+🔥 Features
+🐳 Connect and interact with Docker Engine API
 
-⚡ Lightweight and fast
+📋 Manage containers: create, start, stop, remove
 
-🧩 Minimal dependencies
+🖼️ Handle images: pull, list, remove
 
-📦 Fully supports common Docker operations
+⚙️ Access and modify Docker settings programmatically
 
-📝 Clear and easy-to-use API
+🚦 Easy to extend and integrate with other Python tools
 
 🛠️ Installation
-Install via npm:
-
 bash
 Copy
 Edit
-npm install dockerapi
-💡 Usage
-Here’s a quick example to get you started:
+git clone https://github.com/Angus-Carr/DockerAPI.git
+cd DockerAPI/Main/Main
+pip install -r requirements.txt
+Make sure you have Docker installed and running on your machine! 🐳
 
-js
+🏃 How to Use
+Import the main module in your Python script:
+
+python
 Copy
 Edit
-const DockerAPI = require('dockerapi');
+from Main import DockerAPI
+Initialize the API client:
 
-const docker = new DockerAPI();
+python
+Copy
+Edit
+client = DockerAPI.Client()
+Start managing Docker containers and images:
 
-// List all containers
-docker.listContainers()
-  .then(containers => console.log(containers))
-  .catch(err => console.error('Error:', err));
-📚 API Reference
-listContainers() — Lists all running containers 🏃‍♂️
-
-startContainer(id) — Starts a container by ID ▶️
-
-stopContainer(id) — Stops a container by ID ⏹️
-
-removeContainer(id) — Removes a container by ID ❌
-
-...and more!
-
-Check out the source for full details.
+python
+Copy
+Edit
+containers = client.list_containers()
+print(containers)
+Check out the scripts and examples in the repo for more detailed usage! 📚
 
 🤝 Contributing
-Contributions welcome! Feel free to open issues or submit pull requests. Let’s make DockerAPI even better together! 💪🐳
+Feel free to open issues or submit pull requests! Your contributions will make this project even better. 🌟
 
-⚖️ License
-This project is licensed under the MIT License. 📄
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-📫 Contact
-Created by Angus Carr. Reach out if you want to chat or collaborate! ✉️
+🙌 Thanks for stopping by!
+If you love Docker 🐳 and Python 🐍, this project is made for you. Happy containerizing! 🚀
 
-⭐️ Star the repo if you like it! Thanks for stopping by! 🙌
+Keep coding & keep dockering! ⚓️🐙
